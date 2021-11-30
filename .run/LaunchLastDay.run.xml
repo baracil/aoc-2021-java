@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="LaunchLastDay" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="perococco.aoc.launcher.LaunchLastDay" />
+    <option name="MAIN_CLASS_NAME" value="fpc.aoc.launcher.LaunchLastDay" />
     <module name="aoc-launcher" />
     <extension name="coverage">
       <pattern>

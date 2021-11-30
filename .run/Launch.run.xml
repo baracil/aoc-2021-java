@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Launch" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="perococco.aoc.launcher.Launch" />
+    <option name="MAIN_CLASS_NAME" value="fpc.aoc.launcher.Launch" />
     <module name="aoc-launcher" />
-    <option name="PROGRAM_PARAMETERS" value="23 2" />
+    <option name="PROGRAM_PARAMETERS" value="1 1" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
