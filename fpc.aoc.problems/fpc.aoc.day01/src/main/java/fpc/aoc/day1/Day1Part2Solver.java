@@ -1,20 +1,15 @@
 package fpc.aoc.day1;
 
-import lombok.NonNull;
 import fpc.aoc.api.AOCProblem;
-import fpc.aoc.common.NotSolvedYet;
-
-import java.util.stream.Stream;
 
 public class Day1Part2Solver extends Day1Solver {
 
     public static AOCProblem<?> provider() {
-        return new Day1Part2Solver().createProblem().skipped();
+        return new Day1Part2Solver().createProblem();
     }
 
-    @Override
-    public @NonNull String solve(@NonNull Stream<String> input) {
-        throw new NotSolvedYet();
-    }
 
+    public Day1Part2Solver() {
+        super(3);
+    }
 }

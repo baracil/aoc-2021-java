@@ -1,16 +1,27 @@
 package fpc.aoc.day1;
 
-import lombok.NonNull;
 import fpc.aoc.input.Converter;
 import fpc.aoc.input.SmartSolver;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
-import java.util.stream.Stream;
+import java.util.stream.IntStream;
 
-public abstract class Day1Solver extends SmartSolver<Stream<String>, String> {
+@RequiredArgsConstructor
+public abstract class Day1Solver extends SmartSolver<int[], Long> {
+
+    private final int step;
 
     @Override
-    protected @NonNull Converter<Stream<String>> getConverter() {
-        return Converter.IDENTITY;
+    protected @NonNull Converter<int[]> getConverter() {
+        return Converter.TO_ARRAY_OF_INT;
     }
 
+
+    @Override
+    public @NonNull Long solve(int @NonNull [] input) {
+        return IntStream.range(0, input.length - step)
+                        .filter(pos -> input[pos + step] > input[pos])
+                        .count();
+    }
 }
