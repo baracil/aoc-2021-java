@@ -213,6 +213,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <compilerArgs>--enable-preview</compilerArgs>
                     <encoding>UTF-8</encoding>
                     <annotationProcessorPaths>
                         <annotationProcessorPath>
@@ -244,6 +245,7 @@
                     <configuration>
                         <useModulePath>true</useModulePath>
                         <useSystemClassLoader>false</useSystemClassLoader>
+                        <argLine>--enable-preview</argLine>
                     </configuration>
                 </plugin>
             </plugins>

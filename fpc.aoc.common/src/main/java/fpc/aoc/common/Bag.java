@@ -1,6 +1,5 @@
 package fpc.aoc.common;
 
-import fpc.aoc.common._private.HashBag;
 import lombok.NonNull;
 
 public interface Bag<T> {

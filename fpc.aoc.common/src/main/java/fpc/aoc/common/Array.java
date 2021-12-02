@@ -1,7 +1,5 @@
 package fpc.aoc.common;
 
-import fpc.aoc.common._private.BaseArrayOfChar;
-import fpc.aoc.common._private.BaseGenericArray;
 import lombok.NonNull;
 
 import java.util.stream.IntStream;

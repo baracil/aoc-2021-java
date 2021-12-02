@@ -1,8 +1,6 @@
 package fpc.aoc.common;
 
 import com.google.common.collect.ImmutableList;
-import fpc.aoc.common._private.BaseArray;
-import fpc.aoc.common._private.BaseArrayOfChar;
 import lombok.NonNull;
 
 import java.util.Arrays;

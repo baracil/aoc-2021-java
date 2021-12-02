@@ -19,13 +19,13 @@ public class TestDay1Solver {
             """;
 
     @Test
-    void testExampleDay1Part1() {
+    public void testExampleDay1Part1() {
         final long actual = new Day1Part1Solver().createProblem(TEST_INPUT).solve();
         Assertions.assertEquals(7,actual);
     }
 
     @Test
-    void testExampleDay1Part2() {
+    public void testExampleDay1Part2() {
         final long actual = new Day1Part2Solver().createProblem(TEST_INPUT).solve();
         Assertions.assertEquals(5,actual);
     }

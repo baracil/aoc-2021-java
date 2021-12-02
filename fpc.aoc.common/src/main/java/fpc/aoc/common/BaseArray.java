@@ -1,4 +1,4 @@
-package fpc.aoc.common._private;
+package fpc.aoc.common;
 
 import fpc.aoc.common.AOCException;
 import fpc.aoc.common.Array;

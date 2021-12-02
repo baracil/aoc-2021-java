@@ -1,7 +1,5 @@
 package fpc.aoc.common;
 
-import fpc.aoc.common._private.AbstractArrayOfChar;
-import fpc.aoc.common._private.BaseArrayOfChar;
 import lombok.Getter;
 import lombok.NonNull;
 

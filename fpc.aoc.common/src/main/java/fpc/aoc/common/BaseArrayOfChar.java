@@ -1,6 +1,5 @@
-package fpc.aoc.common._private;
+package fpc.aoc.common;
 
-import fpc.aoc.common.*;
 import lombok.NonNull;
 
 import java.io.PrintStream;

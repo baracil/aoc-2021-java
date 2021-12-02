@@ -13,7 +13,7 @@ import static fpc.aoc.common.Transformation.of;
 public class TransformationTest {
 
 
-    private static @NonNull Stream<Arguments> rotationTests() {
+    public static @NonNull Stream<Arguments> rotationTests() {
         return Stream.of(
                 Arguments.of(of(Rotation._000, Flipping.NONE), Rotation._000, of(Rotation._000, Flipping.NONE)),
                 Arguments.of(of(Rotation._090, Flipping.NONE), Rotation._000, of(Rotation._090, Flipping.NONE)),

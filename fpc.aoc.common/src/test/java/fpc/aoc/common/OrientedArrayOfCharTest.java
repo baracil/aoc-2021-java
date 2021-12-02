@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class OrientedArrayOfCharTest {
 
     @Test
-    void name() {
+    public void name() {
         final ArrayOfChar a = ArrayOfChar.from("""
                                                        ...##
                                                        ....#

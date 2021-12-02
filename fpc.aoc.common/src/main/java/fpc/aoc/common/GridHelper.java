@@ -1,6 +1,5 @@
 package fpc.aoc.common;
 
-import fpc.aoc.common._private.SimpleGridHelper;
 import lombok.NonNull;
 
 import java.util.stream.Stream;

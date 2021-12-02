@@ -1,4 +1,4 @@
-package fpc.aoc.common._private;
+package fpc.aoc.common;
 
 import fpc.aoc.common.Bag;
 import lombok.NonNull;

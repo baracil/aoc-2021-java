@@ -15,7 +15,11 @@ public class Position {
     }
 
     public @NonNull Position displaced(@NonNull Displacement displacement) {
-        return of(x+displacement.dx(), y+displacement.dy());
+        return translate(displacement.dx(), displacement.dy());
+    }
+
+    public @NonNull Position translate(int dx, int dy) {
+        return of(x + dx, y + dy);
     }
 
     public @NonNull Position wrap(int width, int height) {
