@@ -9,6 +9,7 @@ module fpc.aoc.day6 {
     requires com.google.common;
 
     exports fpc.aoc.day6;
+    exports fpc.aoc.day6.struct;
 
     provides AOCProblem with Day6Part1Solver, Day6Part2Solver;
 }
