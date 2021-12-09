@@ -11,12 +11,12 @@ import java.util.stream.Stream;
 public class Day9Part2Solver extends Day9Solver {
 
     public static @NonNull AOCProblem<?> provider() {
-        return new Day9Part2Solver().createProblem().skipped();
+        return new Day9Part2Solver().createProblem();
     }
 
 
     @Override
-    public @NonNull String solve(@NonNull Stream<String> input) {
-        throw new NotSolvedYet();
+    public @NonNull Integer solve(@NonNull Map map) {
+        return map.computePart2Result();
     }
 }

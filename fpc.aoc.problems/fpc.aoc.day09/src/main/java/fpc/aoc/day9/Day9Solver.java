@@ -6,10 +6,10 @@ import fpc.aoc.input.SmartSolver;
 
 import java.util.stream.Stream;
 
-public abstract class Day9Solver extends SmartSolver<Stream<String>,String> {
+public abstract class Day9Solver extends SmartSolver<Map,Integer> {
 
     @Override
-    protected @NonNull Converter<Stream<String>> getConverter() {
-        return Converter.IDENTITY;
+    protected @NonNull Converter<Map> getConverter() {
+        return Converter.ALL_LINES.andThen(Map::parse);
     }
 }
