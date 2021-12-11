@@ -6,6 +6,7 @@ module fpc.aoc.day11 {
     requires static lombok;
 
     requires fpc.aoc.input;
+    requires com.google.common;
 
     exports fpc.aoc.day11;
 
