@@ -8,7 +8,7 @@ import fpc.aoc.launcher._private.Launcher;
 public class Launch {
 
     public static void main(String[] args) {
-        final double last = bench(new Problem(args),10,60);
+        final double last = bench(new Problem(args),0,1);
         System.out.printf("Last : %.3f ms%n",last);
     }
 
