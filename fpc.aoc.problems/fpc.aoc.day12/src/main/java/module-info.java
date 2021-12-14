@@ -10,6 +10,7 @@ module fpc.aoc.day12 {
     requires com.google.common;
 
     exports fpc.aoc.day12;
+    exports fpc.aoc.day12.struct;
 
     provides AOCProblem with Day12Part1Solver, Day12Part2Solver;
 }
