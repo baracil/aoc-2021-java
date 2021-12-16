@@ -9,11 +9,11 @@ import java.util.stream.Stream;
 public class Day15Part2Solver extends Day15Solver {
 
     public static @NonNull AOCProblem<?> provider() {
-        return new Day15Part2Solver().createProblem().skipped();
+        return new Day15Part2Solver().createProblem();
     }
 
     @Override
-    public @NonNull String solve(@NonNull Stream<String> input) {
-        throw new NotSolvedYet();
+    protected int getNbRepetitions() {
+        return 5;
     }
 }
